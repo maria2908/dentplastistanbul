@@ -8,7 +8,7 @@
       <p class=" mt-32">В рамках программы медицинского туризма в Стамбуле доступны комбинированные операции, что сбережет ваши деньги и время, поскольку не придется приезжать дважды. Вы можете, например, сочетать фейслифтинг с маммопластикой, абдоминопластику с созданием «голливудской улыбки», ринопластику с установкой дентальных имплантов.</p>
     </div>
     <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-2/3">
-      <Slide v-for="slide in slides" :key="slide" >
+      <Slide v-for="slide in slides" :key="slide">
         <div class="carousel__item mx-6">
           <img :src="slide.img" class="mx-auto" />
           <p class="w-80 mt-4 text-justify">{{slide.title}}</p>
@@ -16,10 +16,7 @@
       </Slide>
 
       <template #addons>
-        <div class="navi-services">
-          <Navigation />
-
-        </div>
+        <Navigation />
       </template>
     </Carousel>
   </div>
@@ -44,7 +41,6 @@
     top: 100% ;
   }
 }
-
 </style>
 
 <script setup>
