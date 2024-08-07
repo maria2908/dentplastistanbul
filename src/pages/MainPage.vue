@@ -7,6 +7,7 @@ import OurServices from "@/components/TheMain/OurServices.vue";
 import PostoperativeSupport from "@/components/TheMain/PostoperativeSupport.vue";
 import WhereClinics from "@/components/TheMain/WhereClinics.vue";
 import PeculiaritieAccommodation from "@/components/TheMain/PeculiaritieAccommodation.vue";
+import PlanTime from "@/components/TheMain/PlanTime.vue";
 </script>
 
 <template>
@@ -23,6 +24,7 @@ import PeculiaritieAccommodation from "@/components/TheMain/PeculiaritieAccommod
   <main-container>
     <peculiaritie-accommodation></peculiaritie-accommodation>
   </main-container>
+  <plan-time></plan-time>
 
 
 </template>

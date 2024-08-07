@@ -8,7 +8,7 @@
       <p class=" mt-32">В рамках программы медицинского туризма в Стамбуле доступны комбинированные операции, что сбережет ваши деньги и время, поскольку не придется приезжать дважды. Вы можете, например, сочетать фейслифтинг с маммопластикой, абдоминопластику с созданием «голливудской улыбки», ринопластику с установкой дентальных имплантов.</p>
     </div>
     <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-2/3">
-      <Slide v-for="slide in slides" :key="slide">
+      <Slide v-for="slide in slides" :key="slide" >
         <div class="carousel__item mx-6">
           <img :src="slide.img" class="mx-auto" />
           <p class="w-80 mt-4 text-justify">{{slide.title}}</p>
@@ -16,38 +16,40 @@
       </Slide>
 
       <template #addons>
-        <Navigation />
+        <div class="navi-services">
+          <Navigation />
+
+        </div>
       </template>
     </Carousel>
   </div>
 
 </template>
-<style>
-.carousel__slide {
-  align-items: start;
-  justify-content: center;
+<style lang="scss">
+  .carousel__slide {
+    align-items: start;
+    justify-content: center;
+  }
+.navi-services {
+  .carousel__next {
+    margin-left: 60px;
+  }
+  .carousel__prev, .carousel__next {
+    position: absolute;
+    color: white;
+    padding: 5px;
+    background-color: #AD9173;
+    border-radius: 40px;
+    left: -10%;
+    top: 100% ;
+  }
 }
 
-.carousel__pagination {
-  margin-top: 35px;
-}
-.carousel__next {
-  margin-left: 60px;
-}
-.carousel__prev, .carousel__next {
-  position: absolute;
-  color: white;
-  padding: 5px;
-  background-color: #AD9173;
-  border-radius: 40px;
-  left: -10%;
-  top: 100% !important;
-}
 </style>
 
 <script setup>
 import { ref } from 'vue'
-import { Carousel, Navigation, Slide, Pagination } from 'vue3-carousel'
+import { Carousel, Navigation, Slide } from 'vue3-carousel'
 
 import 'vue3-carousel/dist/carousel.css'
 

@@ -22,3 +22,8 @@ h1 {
   border-radius: 50px;
   width: fit-content;
 }
+
+.shadow {
+  box-shadow: 0px 1px 20px -13px rgba(66, 68, 90, 1);
+
+}
