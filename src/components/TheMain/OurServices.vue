@@ -16,7 +16,10 @@
       </Slide>
 
       <template #addons>
-        <Navigation />
+        <div class="navi-services">
+          <Navigation  />
+
+        </div>
       </template>
     </Carousel>
   </div>
