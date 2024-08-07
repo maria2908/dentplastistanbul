@@ -43,6 +43,12 @@
   left: -10%;
   top: 100% !important;
 }
+
+@media (min-width: 768px) { 
+  .carousel__slide {
+    margin: 0 20px;
+  }
+ }
 </style>
 
 <script setup>
