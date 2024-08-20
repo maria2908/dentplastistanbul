@@ -43,33 +43,39 @@ const slides = ref([
     img: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/56356749.jpg?k=247864660835733e248befb210d3f0550fdb1a76d880463d423d9f55a99ec0f4&o=&hp=1'
   },
 
+]);
 
-])
 
 const settings = ref({
-  itemsToShow: 4,
+  itemsToShow: 1,
   snapAlign: 'center',
-})
-
-const breakpoints = ref({
-  700: {
-    itemsToShow: 2,
-    snapAlign: 'center',
-  },
-  1024: {
-    itemsToShow: 4,
-    snapAlign: 'center',
-  },
+  breakpoints: {
+    769: {
+      itemsToShow: 2,
+      snapAlign: 'center',
+    },
+    1024: {
+      itemsToShow: 3,
+      snapAlign: 'center',
+    },
+    1440: {
+      itemsToShow: 4,
+      snapAlign: 'center',
+    },
+  }
 })
 </script>
 
 <template>
-  <h1 class="">Особенности проживания во время лечения в Турции</h1>
-  <p class="w-1/2 text-center mx-auto mb-12">Мы предлагаем проживание в шикарной гостинице, которая расположена недалеко от моря. Доступны номера типа люкс и полулюкс с включенным завтраком, SPA-зоной, услугами трансфера. Это идеальное место для клиентов, которые хотят сочетать качественное лечение с комфортным отдыхом.
+  <h1 class="text-center mt-8">Особенности проживания во время лечения в Турции</h1>
+  <p class="w-11/12 md:w-3/4 text-center mx-auto mb-12">
+    Мы предлагаем проживание в шикарной гостинице, которая расположена недалеко от моря. Доступны номера типа люкс и полулюкс с
+    включенным завтраком, SPA-зоной, услугами трансфера. Это идеальное место для клиентов, которые хотят сочетать качественное
+    лечение с комфортным отдыхом.
   </p>
-  <Carousel v-bind="settings" :breakpoints="breakpoints">
-    <Slide v-for="slide in slides" :key="slide" class="px-4 w-1/4 h-72">
-        <img class="w-full h-full object-cover" :src="slide.img">
+  <Carousel v-bind="settings">
+    <Slide v-for="(slide, index) in slides" :key="index" class="px-2 md:px-4 w-full h-48 md:h-72">
+      <img class="w-full h-full object-cover rounded-lg" :src="slide.img">
     </Slide>
     <template #addons>
       <div class="navi-accommodation">
@@ -77,18 +83,58 @@ const breakpoints = ref({
       </div>
     </template>
   </Carousel>
-  <p class="w-1/2 text-center mx-auto mt-12">Конечно, вы можете выбрать другой отель, если он лучше соответствует вашим критериям. Мы поможем забронировать номер.</p>
+  <p class="w-11/12 md:w-3/4 text-center mx-auto mt-20">
+    Конечно, вы можете выбрать другой отель, если он лучше соответствует вашим критериям. Мы поможем забронировать номер.
+  </p>
 </template>
+
 <style lang="scss">
 .navi-accommodation {
-
   .carousel__next {
     position: absolute;
     right: -2%;
+    top: 50%;
+    transform: translateY(-50%);
   }
+
   .carousel__prev {
     position: absolute;
     left: -2%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+@media (max-width: 1024px) {
+  .navi-accommodation {
+    .carousel__next {
+      right: 0;
+    }
+
+    .carousel__prev {
+      left: 0;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .navi-accommodation {
+    .carousel__next {
+      top: 115%;
+      background-color: #AD9173;
+      border-radius: 40px;
+      padding: 2px;
+      right: 43%;
+    }
+
+    .carousel__prev {
+      top: 115%;
+      background-color: #AD9173;
+      border-radius: 40px;
+      padding: 2px;
+      left: 43%;
+
+    }
   }
 }
 </style>

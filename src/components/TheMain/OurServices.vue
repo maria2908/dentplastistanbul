@@ -1,13 +1,15 @@
 <template>
-  <h1 class="mb-4">Наши услуги в сфере медицинского туризма в Стамбуле</h1>
-  <div class="flex">
-    <div class="w-1/3 p-6 rounded-2xl h-fit text-justify">
+  <h1 class="text-center">Наши услуги в сфере медицинского туризма в Стамбуле</h1>
+  <div class="flex flex-col md:flex-row">
+    <div class="w-full md:w-1/3 p-6 rounded-2xl h-fit text-justify">
       <p>
         Центр Dentplastistanbul сотрудничает с клиниками, которые специализируются на пластической хирургии, установке дентальных имплантов и виниров. В список услуг, которые мы предлагаем в рамках медтуризма в Стамбуле, входят:
       </p>
-      <p class=" mt-32">В рамках программы медицинского туризма в Стамбуле доступны комбинированные операции, что сбережет ваши деньги и время, поскольку не придется приезжать дважды. Вы можете, например, сочетать фейслифтинг с маммопластикой, абдоминопластику с созданием «голливудской улыбки», ринопластику с установкой дентальных имплантов.</p>
+      <p class="mt-8 md:mt-32">
+        В рамках программы медицинского туризма в Стамбуле доступны комбинированные операции, что сбережет ваши деньги и время, поскольку не придется приезжать дважды. Вы можете, например, сочетать фейслифтинг с маммопластикой, абдоминопластику с созданием «голливудской улыбки», ринопластику с установкой дентальных имплантов.
+      </p>
     </div>
-    <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-2/3">
+    <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-full md:w-2/3 mt-8 md:mt-0">
       <Slide v-for="slide in slides" :key="slide">
         <div class="carousel__item mx-6">
           <img :src="slide.img" class="mx-auto" />
@@ -18,30 +20,32 @@
       <template #addons>
         <div class="navi-services">
           <Navigation  />
-
         </div>
       </template>
     </Carousel>
   </div>
-
 </template>
+
 <style lang="scss">
-  .carousel__slide {
-    align-items: start;
-    justify-content: center;
-  }
+.carousel__slide {
+  align-items: start;
+  justify-content: center;
+}
 .navi-services {
+  margin-top: 50px;
+
   .carousel__next {
     margin-left: 60px;
   }
-  .carousel__prev, .carousel__next {
+  .carousel__prev,
+  .carousel__next {
     position: absolute;
     color: white;
     padding: 5px;
     background-color: #AD9173;
     border-radius: 40px;
     left: -10%;
-    top: 100% ;
+    top: 100%;
   }
 }
 </style>

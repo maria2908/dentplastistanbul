@@ -11,7 +11,7 @@ html, body {
 }
 
 .gradient {
-  background: linear-gradient(180deg, rgba(121,125,127,1) 0%, rgb(189, 178, 163) 100%);
+  background: linear-gradient(180deg, rgba(121,125,127,1) 0%, rgb(173, 145, 115) 100%);
 }
 
 h1 {
@@ -25,5 +25,8 @@ h1 {
 
 .shadow {
   box-shadow: 0px 1px 20px -13px rgba(66, 68, 90, 1);
+}
 
+.shadow-2 {
+  box-shadow: 0px 16px 27px 3px rgba(0,0,0,0.1);
 }

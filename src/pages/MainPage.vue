@@ -8,6 +8,8 @@ import PostoperativeSupport from "@/components/TheMain/PostoperativeSupport.vue"
 import WhereClinics from "@/components/TheMain/WhereClinics.vue";
 import PeculiaritieAccommodation from "@/components/TheMain/PeculiaritieAccommodation.vue";
 import PlanTime from "@/components/TheMain/PlanTime.vue";
+import TheFeedback from "@/components/TheMain/TheFeedback.vue";
+import TranslationContact from "@/components/TheMain/TranslationContact.vue";
 </script>
 
 <template>
@@ -23,8 +25,11 @@ import PlanTime from "@/components/TheMain/PlanTime.vue";
   <where-clinics></where-clinics>
   <main-container>
     <peculiaritie-accommodation></peculiaritie-accommodation>
+    <translation-contact></translation-contact>
   </main-container>
   <plan-time></plan-time>
-
+  <main-container id="feedback-section">
+    <the-feedback ></the-feedback>
+  </main-container>
 
 </template>
