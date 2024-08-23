@@ -7,8 +7,8 @@ const activeMenu = ref(0);
 const isFixed = ref(false);
 
 const menuItems = [
-  {text: "menu.main", link: '#'},
-  {text: 'Стоматология', link: '#'},
+  {text: "menu.main", link: '/'},
+  {text: 'Стоматология', link: '/dentistry'},
   {text: 'Пластическая хирургия', link: '#'},
   {text: 'Увеличение груди', link: '#'},
   {text: 'Липосакция', link: '#'},
@@ -51,27 +51,29 @@ onMounted(() => {
 </script>
 
 <template>
-  <div style="display: flex" :class="['bigscreen flex lg:flex lg:fixed absolute z-10 right-4 lg:right-12 content-center lg:mt-6', { fixed: isFixed }]">
+  <div style="display: flex" :class="['bigscreen flex lg:flex lg:fixed absolute z-10 right-4 content-center lg:mt-6', { fixed: isFixed }]">
     <!-- Menu Items -->
     <ul class="flex flex-col lg:flex-row bg-white p-2 rounded-3xl">
       <li
           v-for="(item, index) in menuItems"
           :key="index"
           :class="{'active': activeMenu === index, 'hover:bg-customGray hover:bg-opacity-30 rounded-3xl': true, 'p-2 lg:p-4': true}"
+          @click="setActiveMenu(index)"
       >
         <router-link :to="item.link" class="block text-center">{{ $t(item.text) }}</router-link>
       </li>
+      <div class="dropdown mt-3">
+        <span class="material-icons pr-4">translate</span>
+        <div class="dropdown-content hidden lg:block">
+          <p @click="setLanguage('ru')" :class="{ isActive: locale === 'ru' }">RU</p>
+          <p @click="setLanguage('ua')" :class="{ isActive: locale === 'ua' }">UA</p>
+          <p @click="setLanguage('en')" :class="{ isActive: locale === 'en' }">EN</p>
+        </div>
+      </div>
     </ul>
 
     <!-- Language Dropdown -->
-    <div class="dropdown mt-4 lg:mt-6">
-      <span class="material-icons pr-4">translate</span>
-      <div class="dropdown-content hidden lg:block">
-        <p @click="setLanguage('ru')" :class="{ isActive: locale === 'ru' }">RU</p>
-        <p @click="setLanguage('ua')" :class="{ isActive: locale === 'ua' }">UA</p>
-        <p @click="setLanguage('en')" :class="{ isActive: locale === 'en' }">EN</p>
-      </div>
-    </div>
+
   </div>
 
   <div ref="headerRef" :class="['smallscreen flex flex-col absolute z-10 right-0 content-center items-center bg-white rounded-2xl', { fixedBar: isFixed }]">
@@ -141,11 +143,12 @@ onMounted(() => {
 .fixed {
   position: fixed;
   width: fit-content;
-  margin-top: 15px;
   border-radius: 40px;
   padding: 10px;
   top: 0;
-  right: 18%;
+  right: 0;
+  left: 0;
+  margin: 20px auto 0;
   z-index: 1000;
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);

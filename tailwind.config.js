@@ -9,7 +9,7 @@ export default {
       white: '#ffffff',
       black: '#000000',
       customDark: '#182230',
-      customGray: '#797D7F',
+      customGray: '#adb1b3',
       customPink: '#D067A9',
       customBeg: '#BDB2A3',
       customDarkBeg: '#AD9173'

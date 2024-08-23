@@ -1,7 +1,7 @@
 <template>
   <div class="bg-customGray bg-opacity-70 text-white m-4 rounded-2xl py-6">
     <h1 class="text-center mx-auto">Золотые стандарты медицинского туризма в Dentplastistanbul</h1>
-    <p class="mb-12 w-1/2 text-center mx-auto">Мы предлагаем клиники, работа которых соответствует всем мировым стандартам
+    <p class="mb-12 w-1/2 text-center my-auto mx-auto">Мы предлагаем клиники, работа которых соответствует всем мировым стандартам
       безопасности и качества.
       Все они имеют
       обязательный сертификат международного медицинского туризма IHT, выданный Министерством здравоохранения Турции, который
@@ -9,14 +9,14 @@
     </p>
     <div class="tablet mx-48 flex">
       <div class="block w-full">
-        <div class="flex  w-full">
+        <div class="flex w-full">
           <img style="height: 30vh; " class=" w-full object-cover " src="../../assets/img/statistic.JPG">
-          <p class=" w-full bg-white text-black content-center text-center px-1">Врачи и медперсонал обладают образованием, опытом и
+          <p class="w-full bg-white text-black content-center text-center">Врачи и медперсонал обладают образованием, опытом и
             квалификацией, необходимыми
             для оказания качественных услуг участникам медтуризма в Стамбуле.</p>
         </div>
         <div class="flex  w-full">
-          <p class=" w-full bg-white text-black  content-center text-center px-1">Клиника оснащена современным оборудованием, применяет
+          <p class=" w-full bg-white text-black  content-center text-center">Клиника оснащена современным оборудованием, применяет
             инновационные технологии</p>
           <img style="height: 30vh; " class=" w-full object-cover " src="../../assets/img/clinic.JPG">
         </div>
@@ -25,11 +25,11 @@
       <div class="block w-full">
         <div class="flex w-full">
           <img style="height: 30vh" class="w-full object-cover " src="../../assets/img/our-standarts.JPG">
-          <p class="w-full bg-white text-black  content-center text-center px-1">Персонал строго выполняет протоколы безопасности,
+          <p class="w-full bg-white text-black  content-center text-center">Персонал строго выполняет протоколы безопасности,
             направленные на обеспечение здоровья и благополучия пациентов.</p>
         </div>
         <div class="flex w-full">
-          <p class="w-full bg-white text-black  content-center text-center px-1">Клиника соблюдает права пациентов, действует в
+          <p class="w-full bg-white text-black  content-center text-center">Клиника соблюдает права пациентов, действует в
             соответствии с этическими стандартами, гарантирует конфиденциальность.</p>
           <img style="height: 30vh;" class="w-full object-cover " src="../../assets/img/our-standarts2.JPG">
         </div>

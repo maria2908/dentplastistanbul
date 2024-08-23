@@ -21,6 +21,8 @@ h1 {
   font-size: 35px;
   border-radius: 50px;
   width: fit-content;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .shadow {
