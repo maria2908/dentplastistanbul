@@ -1,17 +1,17 @@
 <script setup>
-import {ref, onMounted, onUnmounted, watch} from 'vue';
+import {ref, onMounted} from 'vue';
 import {useI18n} from 'vue-i18n';
 
 const activeBarMenu = ref(false);
-const activeMenu = ref(0);
+
 const isFixed = ref(false);
 
 const menuItems = [
-  {text: "menu.main", link: '/'},
-  {text: 'Стоматология', link: '/dentistry'},
-  {text: 'Пластическая хирургия', link: '#'},
-  {text: 'Увеличение груди', link: '#'},
-  {text: 'Липосакция', link: '#'},
+  {id: 0, text: "menu.main", link: '/'},
+  {id: 1, text: 'Стоматология', link: '/dentistry'},
+  {id: 2, text: 'Пластическая хирургия', link: '/test1'},
+  {id: 3, text: 'Увеличение груди', link: '/test2'},
+  {id: 4, text: 'Липосакция', link: '/test3'},
 ];
 
 const {locale} = useI18n();
@@ -25,11 +25,6 @@ function setLanguage(lang) {
 function handleScroll() {
   const scrollOffset = window.scrollY;
   isFixed.value = scrollOffset >= 2;
-}
-
-function setActiveMenu(index) {
-  activeMenu.value = index;
-  activeBarMenu.value = false;
 }
 
 const handleActiveBarMenu = () => {
@@ -54,14 +49,14 @@ onMounted(() => {
   <div style="display: flex" :class="['bigscreen flex lg:flex lg:fixed absolute z-10 right-4 content-center lg:mt-6', { fixed: isFixed }]">
     <!-- Menu Items -->
     <ul class="flex flex-col lg:flex-row bg-white p-2 rounded-3xl">
-      <li
-          v-for="(item, index) in menuItems"
-          :key="index"
-          :class="{'active': activeMenu === index, 'hover:bg-customGray hover:bg-opacity-30 rounded-3xl': true, 'p-2 lg:p-4': true}"
-          @click="setActiveMenu(index)"
+      <router-link
+          v-for="(item) in menuItems"
+          :key="item.id"
+          class="hover:bg-customGray hover:bg-opacity-30 rounded-3xl p-4 px-8"
+          :to="item.link"
       >
-        <router-link :to="item.link" class="block text-center">{{ $t(item.text) }}</router-link>
-      </li>
+        {{ $t(item.text) }}
+      </router-link>
       <div class="dropdown mt-3">
         <span class="material-icons pr-4">translate</span>
         <div class="dropdown-content hidden lg:block">
@@ -89,14 +84,14 @@ onMounted(() => {
       <button @click="handleActiveBarMenu" class=" mr-4 text-2xl">☰</button>
     </div>
     <ul v-if="activeBarMenu" class="flex flex-col bg-white p-2 rounded-3xl">
-      <li
+      <router-link
           v-for="(item, index) in menuItems"
           :key="index"
-          :class="{'active': activeMenu === index, 'hover:bg-customGray hover:bg-opacity-30 rounded-3xl my-1': true, 'p-2 lg:p-4': true}"
-          @click="setActiveMenu(index)"
+          class="hover:bg-customGray hover:bg-opacity-30 rounded-3xl my-1 p-3 text-center"
+          :to="item.link"
       >
-        <router-link :to="item.link" class="block text-center">{{ $t(item.text) }}</router-link>
-      </li>
+        {{ $t(item.text) }}
+      </router-link>
     </ul>
   </div>
 </template>
@@ -140,6 +135,11 @@ onMounted(() => {
   border-radius: 20px;
 }
 
+.router-link-active {
+  background-color: #adb1b3;
+  color: white;
+}
+
 .fixed {
   position: fixed;
   width: fit-content;
@@ -163,11 +163,6 @@ onMounted(() => {
   z-index: 1000;
   background-color: white;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.active {
-  color: white;
-  background-color: #797D7F;
 }
 
 li {
