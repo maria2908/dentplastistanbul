@@ -5,6 +5,8 @@ import App from './App.vue'
 import router from './router'
 import 'material-design-icons-iconfont/dist/material-design-icons.css';
 import '../node_modules/flowbite-vue/dist/index.css'
+import PrimeVue from 'primevue/config';
+import Aura from '@primevue/themes/aura';
 
 // Translate
 import { createI18n } from 'vue-i18n'
@@ -27,8 +29,13 @@ const i18n = createI18n({
 const test = localStorage.getItem('locale');
 console.log(test)
 
-const app = createApp(App)
+const app = createApp(App);
 
+app.use(PrimeVue, {
+    theme: {
+        preset: Aura
+    }
+});
 app.use(i18n)
 app.use(router)
 app.mount('#app')

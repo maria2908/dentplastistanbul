@@ -1,15 +1,20 @@
 <script setup>
-import TheWelcome from "@/components/TheMain/TheWelcome.vue";
-import TheStatistics from "@/components/TheMain/TheStatistics.vue";
-import OurStandarts from "@/components/TheMain/OurStandarts.vue";
+import TheWelcome from "@/components/main/TheWelcome.vue";
+import TheStatistics from "@/components/main/TheStatistics.vue";
+import OurStandarts from "@/components/main/OurStandarts.vue";
 import MainContainer from "../layout/MainContainer.vue";
-import OurServices from "@/components/TheMain/OurServices.vue";
-import PostoperativeSupport from "@/components/TheMain/PostoperativeSupport.vue";
-import WhereClinics from "@/components/TheMain/WhereClinics.vue";
-import PeculiaritieAccommodation from "@/components/TheMain/PeculiaritieAccommodation.vue";
-import PlanTime from "@/components/TheMain/PlanTime.vue";
-import TheFeedback from "@/components/TheMain/TheFeedback.vue";
-import TranslationContact from "@/components/TheMain/TranslationContact.vue";
+import OurServices from "@/components/main/OurServices.vue";
+import PostoperativeSupport from "@/components/main/PostoperativeSupport.vue";
+import WhereClinics from "@/components/main/WhereClinics.vue";
+import PeculiaritieAccommodation from "@/components/main/PeculiaritieAccommodation.vue";
+import PlanTime from "@/components/main/PlanTime.vue";
+import TheFeedback from "@/components/main/TheFeedback.vue";
+import TranslationContact from "@/components/main/TranslationContact.vue";
+import {onMounted} from "vue";
+
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
 <template>

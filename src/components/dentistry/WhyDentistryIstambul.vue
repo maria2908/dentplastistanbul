@@ -1,6 +1,6 @@
 <template>
   <!-- Main Heading -->
-  <h1 class="mt-12 text-center">
+  <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
     Почему за лечением зубов в Стамбуле стоит обратиться в Dentplastistanbul
   </h1>
 

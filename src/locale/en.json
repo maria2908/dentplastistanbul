@@ -1,5 +1,34 @@
 {
   "menu": {
-    "main": "Main"
+    "main": "Main",
+    "dentistry": "Dentistry",
+    "plastic-surgery": "Plastic Surgery",
+    "breast-enlargement": "Breast Enlargement",
+    "liposuction": "Liposuction"
+  },
+  "main-page": {
+    "welcome": {
+      "title": "Medical Tourism in Istanbul with Dentplastistanbul",
+      "sub-title-1": "Quality",
+      "sub-title-2": "Safety",
+      "sub-title-3": "Affordable Prices",
+      "feedback": "Our Reviews",
+      "apply-text": "To continue our cooperation, please submit an application, and we will contact you as soon as possible",
+      "apply": "Submit Application"
+    },
+    "statistic": {
+      "title": "Medical tourism in Istanbul is one of the most promising in the world. Thanks to the high level of Turkish medicine and the affordable cost of services, the number of clients is steadily growing. Turkey has hosted the following number of patients:",
+      "year-1": "2021",
+      "number-1": "671",
+      "year-2": "2022",
+      "number-2": "1.3",
+      "year-3": "2023",
+      "number-3": "1.9",
+      "thousand": "thousand",
+      "million": "million",
+      "text-1": "Experts predict that by 2034, medical tourism in Istanbul will continue to develop actively, with the number of foreign patients increasing annually by 5.9–6.5%. And it’s no surprise. Compared to the cost of services in EU countries and the USA, procedures such as dental implants, breast augmentation, abdominoplasty, and rhinoplasty in Turkey can save up to 50-60%.",
+      "text-2": "The main thing when planning treatment in Turkey is to choose a clinic with experienced staff and high-quality services. Dentplastistanbul, which offers medical tourism services in Istanbul, collaborates with the best clinics and doctors in the country."
+    }
   }
+
 }

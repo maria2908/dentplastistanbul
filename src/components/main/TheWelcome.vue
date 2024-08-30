@@ -1,8 +1,5 @@
 <script setup>
 import MainButton from "@/components/MainButton.vue";
-import { ref } from 'vue';
-
-
 const scrollToFeedback = () => {
   const section = document.getElementById('feedback-section');
   if (section) {
@@ -22,35 +19,35 @@ const scrollToFeedback = () => {
     <div class="w-full lg:w-1/3 lg:ml-12">
       <div class="bg-customDarkBeg rounded-2xl p-5 lg:mt-24 text-white">
         <h2 class="text-2xl sm:text-3xl lg:text-4xl capitalize font-semibold">
-          Медицинский туризм в Стамбуле с Dentplastistanbul
+          {{ $t('main-page.welcome.title') }}
         </h2>
         <div class="flex flex-wrap justify-between mt-4 sm:mt-8 text-sm sm:text-base">
-          <p>качество</p>
-          <p>безопасность</p>
-          <p>выгодные цены</p>
+          <p>{{ $t('main-page.welcome.sub-title-1') }}</p>
+          <p>{{ $t('main-page.welcome.sub-title-2') }}</p>
+          <p>{{ $t('main-page.welcome.sub-title-3') }}</p>
         </div>
       </div>
       <div class="flex flex-col sm:flex-row justify-between my-8 lg:my-11 items-center">
         <div class="flex space-x-2">
           <img class="w-12 h-12 rounded-3xl"
-               src="https://play-lh.googleusercontent.com/7Ak4Ye7wNUtheIvSKnVgGL_OIZWjGPZNV6TP_3XLxHC-sDHLSE45aDg41dFNmL5COA"/>
+               src="https://journal.ilounge.ua/files/managers/tanya-garbaruk.jpg"/>
           <img class="w-12 h-12 rounded-3xl"
-               src="https://play-lh.googleusercontent.com/7Ak4Ye7wNUtheIvSKnVgGL_OIZWjGPZNV6TP_3XLxHC-sDHLSE45aDg41dFNmL5COA"/>
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSbL3Ch0JLCqu8HpTK2IPrrmc3W9jZQMXQj6FroR3qZD1JkCUBCqt9HOwOkujfYQvIgA&usqp=CAU"/>
           <img class="w-12 h-12 rounded-3xl"
-               src="https://play-lh.googleusercontent.com/7Ak4Ye7wNUtheIvSKnVgGL_OIZWjGPZNV6TP_3XLxHC-sDHLSE45aDg41dFNmL5COA"/>
+               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTi0bwzvOylBSe0mTPBljiAWPtUfysywERi6r8EvZLvYY-wSE82cGxey6AEWJCcmf9iLDA&usqp=CAU"/>
         </div>
         <button @click="scrollToFeedback" class="flex mt-4 sm:mt-0 bg-customGray p-2 rounded-2xl cursor-pointer">
           <div class="w-12 h-12 rounded-3xl text-center pt-2.5">
-            <span class="material-icons text-white">visibility</span>
+            <span class="material-icons text-white mt-1">visibility</span>
           </div>
-          <p class="mt-3 text-white pr-3">Наши отзывы</p>
+          <p class="mt-3 text-white pr-3">{{ $t('main-page.welcome.feedback') }}</p>
         </button>
       </div>
-      <div class="w-full gradient rounded-2xl pb-8 pt-4 px-4">
+      <div class="w-full gradient rounded-2xl pb-3 pt-4 px-4">
         <img class="w-full h-48 sm:h-72 object-cover mx-auto rounded-2xl" src="../../assets/img/apply.JPG"/>
-        <div class="flex flex-col sm:flex-row justify-between mt-6">
-          <p class="text-sm sm:text-base text-justify text-white lg:w-72 sm:mr-8 mb-2">Для подальшого співпрацювання подайте заяву, та ми якнайшвидще звяжимось з вами</p>
-          <MainButton class="mt-4 h-fit ">Подати заяву</MainButton>
+        <div class="flex flex-col sm:flex-row justify-between mt-4">
+          <p class="text-sm text-white rounded-2xl sm:text-base lg:w-72 sm:mr-8 mb-2">{{ $t('main-page.welcome.apply-text') }}</p>
+          <MainButton class="h-fit ">{{ $t('main-page-welcome.apply') }}</MainButton>
         </div>
       </div>
     </div>

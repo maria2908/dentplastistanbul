@@ -1,14 +1,14 @@
-<script>
-import {defineComponent} from "vue";
-import TheMain from "@/components/Dentistry/TheMain.vue";
+<script setup>
+import TheMain from "@/components/dentistry/TheMain.vue";
 import MainContainer from "@/layout/MainContainer.vue";
-import DentalTreatment from "@/components/Dentistry/DentalTreatment.vue";
-import WhatServices from "@/components/Dentistry/WhatServices.vue";
-import WhyDentistryIstambul from "@/components/Dentistry/WhyDentistryIstambul.vue";
+import DentalTreatment from "@/components/dentistry/DentalTreatment.vue";
+import WhatServices from "@/components/dentistry/WhatServices.vue";
+import WhyDentistryIstambul from "@/components/dentistry/WhyDentistryIstambul.vue";
+import {onMounted} from "vue";
 
-export default defineComponent({
-  components: {WhyDentistryIstambul, WhatServices, DentalTreatment, MainContainer, TheMain}
-})
+onMounted(() => {
+  window.scrollTo(0, 0);
+});
 </script>
 
 <template>
