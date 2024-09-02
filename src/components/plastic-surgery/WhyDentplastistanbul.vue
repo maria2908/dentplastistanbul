@@ -1,29 +1,26 @@
 <template>
   <!-- Main Heading -->
-  <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
-    Почему стоит обратиться в Dentplastistanbul
+  <h1 class="mt-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">
+    {{ $t('plastic.why-dentplastistanbul.title')}}
   </h1>
 
   <!-- Introductory Paragraph -->
-  <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2 py-6 ">
-    Ваши здоровье и красота — смысл нашей работы. Свяжитесь с нами, чтобы согласовать подробности и запланировать визит.
+  <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2 py-6 ">{{ $t('plastic.why-dentplastistanbul.text')}}
   </p>
 
   <!-- Benefits Paragraph -->
   <p class="p-6 mt-6 text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
-    Список преимуществ, которые мы гарантируем своим клиентам:
+    {{ $t('plastic.why-dentplastistanbul.sub-title')}}
   </p>
 
   <!-- Benefits List -->
   <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto">
     <ol class="gradient-list">
-      <li>Услуги высококвалифицированных хирургов, чей опыт подтверждают турецкие и международные дипломы, отзывы экспертов.</li>
-      <li>Использование самых современных методов и оборудования, благодаря чему пластическая клиника в Стамбуле обеспечивает пациентам максимальные безопасность и комфорт.</li>
-      <li>Оптимальное сочетание «цена – качество». По сравнению с расценками медицины в странах ЕС и США стоимость пластической хирургии в Стамбуле в два раза ниже. При этом наши врачи предоставляют услуги, качество которых не уступает результатам операций в лучших европейских клиниках.</li>
-      <li>Соответствие всех процедур требованиям и нормам, установленным Министерством здравоохранения Турции. Качество лечения контролируется Турецкой медицинской ассоциацией.
-      </li>
-      <li>Индивидуальный подход и комфорт. Наши менеджеры и врачи пластической клиники в Стамбуле, с которыми мы сотрудничаем, внимательно выслушают ваши пожелания и предложат оптимальные решения.
-      </li>
+      <li>{{ $t('plastic.why-dentplastistanbul.text-1')}}</li>
+      <li>{{ $t('plastic.why-dentplastistanbul.text-2')}}</li>
+      <li>{{ $t('plastic.why-dentplastistanbul.text-3')}}</li>
+      <li>{{ $t('plastic.why-dentplastistanbul.text-4')}}</li>
+      <li>{{ $t('plastic.why-dentplastistanbul.text-5')}}</li>
     </ol>
   </div>
 </template>

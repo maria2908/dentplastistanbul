@@ -2,13 +2,11 @@
 </script>
 <template>
   <div class="mt-12">
-    <h1 class="my-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">Как проходит визит в пластическую клинику в Стамбуле Dentplastistanbul</h1>
+    <h1 class="my-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">{{ $t('plastic.the-way.title')}}</h1>
     <div class="timeline relative mx-auto w-full md:w-4/5 lg:w-3/4 flex flex-col">
       <div class="timeline-item flex justify-between items-center mb-12 md:h-48">
         <div class="timeline-content  md:pr-8 w-full md:w-1/2">
-          <p class="pr-6">Когда вы прибудете в Турцию, вас встретит трансфер и довезет до отеля. Мы предлагаем поселение в гостиницу недалеко
-            от моря, где доступны номера люкс и полулюкс. Также, с учетом ваших пожеланий, можем организовать проживание в другом
-            отеле.</p>
+          <p class="pr-6">{{ $t('plastic.the-way.text-1')}}</p>
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-image flex justify-around items-center w-full md:w-1/2 md:pl-8 pl-8">
@@ -24,16 +22,13 @@
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-content w-full md:w-1/2 md:pl-8">
-          <p class="pl-6">В согласованное время вы приезжаете в рекомендованную нами пластическую клинику в Стамбуле. Вас будет ждать хирург,
-            который проведет осмотр, назначит анализы, оценит общее состояние здоровья, обсудит детали операции.
-          </p>
+          <p class="pl-6">{{ $t('plastic.the-way.text-2')}}</p>
         </div>
       </div>
 
       <div class="timeline-item flex justify-between items-center mb-12 md:h-48">
         <div class="timeline-content md:pr-8 w-full md:w-1/2">
-          <p class="pr-6">Хирургическое вмешательство проводится под анестезией. Пять-семь дней вы будете находиться под наблюдением нашего
-            пластического хирурга в Стамбуле — он проконтролирует ваше восстановление. </p>
+          <p class="pr-6">{{ $t('plastic.the-way.text-3')}}</p>
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-image flex justify-center w-full md:w-1/2 md:pl-8">
@@ -47,12 +42,9 @@
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-content w-full md:w-1/2 md:pl-8">
-          <p class="pl-6">Полное заживление может занять от двух недель до нескольких месяцев, в зависимости от типа операции. В течение года
-            мы предоставляем пациентам услуги онлайн-консультирования, и вы можете обратиться к своему пластическому хирургу в
-            Стамбуле с любым вопросом, связанным с операцией.</p>
+          <p class="pl-6">{{ $t('plastic.the-way.text-4')}}</p>
         </div>
       </div>
-      <!-- Repeat for more items -->
     </div>
   </div>
 </template>

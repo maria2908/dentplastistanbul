@@ -1,27 +1,27 @@
 <template>
   <!-- Main Heading -->
   <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
-    Почему следует обратиться в центр Dentplastistanbul
+    {{ $t('breast-enlargement.why-dentplastistanbul.title')}}
   </h1>
 
   <!-- Introductory Paragraph -->
   <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-1/2 py-6 ">
-    Заполните заявку на сайте, чтобы получить подробную информацию о наших услугах и спланировать визит!
+    {{ $t('breast-enlargement.why-dentplastistanbul.text')}}
   </p>
 
   <!-- Benefits Paragraph -->
   <p class="p-6 mt-6 text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
-    Доверьтесь Dentplastistanbul — и вы получите главные преимущества:
+    {{ $t('breast-enlargement.why-dentplastistanbul.sub-title')}}
   </p>
 
   <!-- Benefits List -->
   <div class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 pt-10 mx-auto">
     <ol class="gradient-list">
-      <li>Доступные цены. Стоимость увеличения груди в Стамбуле в два раза ниже, чем в странах Европы и США.</li>
-      <li>Широкий спектр услуг. Мы сотрудничаем со специалистами в сфере пластической хирургии и стоматологии. Скажите, что вам надо, и мы подберем лучшего врача для увеличение груди в Стамбуле или другой косметологической/стоматологической процедуры.</li>
-      <li>Гарантированное качество. Мы работаем только с проверенными клиниками и высококвалифицированными врачами, что подтверждают благодарные отзывы клиенток.</li>
-      <li>Возможность объединить операции в рамках визита в Турцию. Чтобы сэкономить время и деньги, вы можете сделать сразу две операции, например, увеличение груди в Стамбуле и ринопластику (изменение формы носа) или липосакцию (иссекание жировых отложений).</li>
-      <li>Комфортный отдых. Хотите осмотреть достопримечательности турецкой столицы? Мы позаботимся о культурной программе и поможем организовать ваш досуг.</li>
+      <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-1')}}</li>
+      <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-2')}}</li>
+      <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-3')}}</li>
+      <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-4')}}</li>
+      <li>{{ $t('breast-enlargement.why-dentplastistanbul.text-5')}}</li>
     </ol>
   </div>
 </template>

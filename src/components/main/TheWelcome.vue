@@ -47,7 +47,7 @@ const scrollToFeedback = () => {
         <img class="w-full h-48 sm:h-72 object-cover mx-auto rounded-2xl" src="../../assets/img/apply.JPG"/>
         <div class="flex flex-col sm:flex-row justify-between mt-4">
           <p class="text-sm text-white rounded-2xl sm:text-base lg:w-72 sm:mr-8 mb-2">{{ $t('main-page.welcome.apply-text') }}</p>
-          <MainButton class="h-fit ">{{ $t('main-page-welcome.apply') }}</MainButton>
+          <MainButton class="h-fit ">{{ $t('main-page.welcome.apply') }}</MainButton>
         </div>
       </div>
     </div>

@@ -37,7 +37,207 @@
       "text-3": "The staff strictly adheres to safety protocols aimed at ensuring the health and well-being of patients.",
       "text-4": "The clinic respects patient rights, operates in accordance with ethical standards, and guarantees confidentiality.",
       "subtitle-2": "We take responsibility for the clients who come to us under the medical tourism program in Istanbul. Everyone can count on an individual approach and care at all stages of treatment. We strive to create a comfortable and safe environment, providing comprehensive support and attention to patients."
+    },
+    "services": {
+      "title": "Our Medical Tourism Services in Istanbul",
+      "text-1": "Dentplastistanbul Center collaborates with clinics specializing in plastic surgery, dental implants, and veneers. The services we offer as part of medical tourism in Istanbul include:",
+      "text-2": "The medical tourism program in Istanbul offers combined surgeries, which will save you time and money, as there is no need to come twice. For example, you can combine a facelift with mammoplasty, abdominoplasty with a 'Hollywood smile,' or rhinoplasty with dental implants.",
+      "slider": {
+        "title-1": "Facelift — facial lifting",
+        "title-2": "Mammoplasty — breast augmentation or reduction. The clinics we partner with use implants from leading global brands (Motiva, Mentor, Polytech).",
+        "title-3": "Rhinoplasty — correction or restoration of nose shape",
+        "title-4": "Abdominoplasty and liposuction — removal of excess skin and fat deposits to improve abdominal contours",
+        "title-5": "Installation of dental implants (Osstem, Dentium, and MegaGen), including All-on-4 and All-on-6 procedures for full denture placement.",
+        "title-6": "Installation of zirconium crowns. They are known for high strength, durability, and perfectly mimic the natural color and transparency of teeth.",
+        "title-7": "Creation of a 'Hollywood smile' — installation of ceramic veneers on the upper and lower teeth, which allows you to hide all defects (crookedness, gaps, etc.)."
+      }
+    },
+    "postoperative-support": {
+      "title": "Postoperative Support",
+      "text-1": "The clinics we collaborate with provide high-quality postoperative support, supply necessary medications, and perform procedures required for the rapid recovery of the body.",
+      "text-2": "For a year after the surgery, we offer online consultation services. You can reach out to us with any questions related to your condition after the procedure. Our doctors will provide comprehensive answers."
+    },
+    "where-clinics": {
+      "title": "Where Our Clinics Are Located",
+      "block-1": {
+        "title": "Dentistry",
+        "text": "The dental clinics we collaborate with are located in some of the most vibrant and attractive areas of the city: Taksim, with its central square of the same name, and Nişantaşı."
+      },
+      "block-2": {
+        "title": "Plastic Surgery",
+        "text": "The plastic surgery clinic is located in the Kadıköy district, on the shores of the Marmara Sea. Nearby, there are many museums, galleries, theaters, and concert halls that you can visit in your free time."
+      },
+      "block-3": {
+        "title": "Additional Information",
+        "text": "Among the well-known landmarks in the area are Dolmabahçe Palace, the Church of the Holy Trinity, and the Galata Tower, which offers a stunning view of the city and the Bosphorus. Medical tourism in Istanbul allows you to combine treatment with exploring cultural and historical sites. Our managers will help you choose a suitable itinerary."
+      }
+    },
+    "accommodation": {
+      "title": "Accommodation Features During Treatment in Turkey",
+      "text": "We offer accommodation in a luxurious hotel located near the sea. Available are deluxe and semi-deluxe rooms with included breakfast, a spa area, and transfer services. This is the perfect place for clients who want to combine quality treatment with a comfortable stay.",
+      "subtitle": "Of course, you can choose another hotel if it better suits your criteria. We will help you book a room."
+    },
+    "translation-contact": {
+      "title-1": "Translator Services",
+      "text-1": "We provide Russian and English language support. Our translators will assist at all stages, from consultation to postoperative follow-up.",
+      "title-2": "How to Contact Us",
+      "text-2": "To arrange medical tourism in Istanbul with us, please fill out the form on our website. Leave your contact details and specify the type of surgery you plan to have. A manager will contact you and answer all your questions."
+    },
+    "plan-time": {
+      "title": "Medical Tourism in Istanbul: How to Plan Your Stay",
+      "text-1": "Contact our manager to book the date for your surgery. On average, allocate a week for your stay in Turkey. The exact duration (in days) depends on the type of procedure:",
+      "text-2": "This time includes diagnostics, preparatory work, surgery, and the post-rehabilitation period. If you plan to combine services, medical tourism in Istanbul may take more time.",
+      "slider": {
+        "title-1": "Rhinoplasty",
+        "title-2": "Breast Augmentation",
+        "title-3": "Abdominoplasty",
+        "title-4": "Dental Implant Installation",
+        "title-5": "Zirconia Crown Installation",
+        "title-6": "Creating a 'Hollywood Smile'"
+      }
+    },
+    "feedback": {
+      "title": "Our Happy Clients",
+      "slide": {
+        "text-1": "I wanted to thank you and your doctors once again. Everything is healing well. In three months, I will come back to you for zirconia crowns. I am very happy that I chose you; you have an excellent, I would say perfect, combination of price and quality. Thank you once again!",
+        "text-2": "After considering a trip to doctor for years, whether my initial thoughts would be correct or the results would live up to my expectations, I left with a PERFECT smile! I was in the UK specifically because I was having constant bouts of dental infections and I finally booked into your Dent in September. When I arrived, I was missing 1 lower and 2 upper teeth, I went thinking that I would need 3 implants, but this was not the case, all I needed were dental bridges to fill the gaps. I had all my teeth coated with Zirconium, for a total of 26 teeth. The entire process was extremely smooth and professional",
+        "text-3": "I had surgery with Dr Caner on 19/02/24 and I am so happy with my result. The doctor is great and his staff is so friendly and nice. I can say that I was feeling safe and in good hands all the time there. I highly recommend the clinic to everyone looking for cosmetic surgery in Turkey! You can't go wrong with this choice of clinic. Definitely I will come back again!",
+        "text-4": "My experience was excellent I am very happy with my treatment and results. Very experienced and professional staff. All staff are excellent and very caring. You will not get a better service."
+      }
     }
-  }
+  },
+  "dentistry": {
+    "main": {
+      "title": "Dental Treatment in Istanbul: We Take Care of Your Beautiful and Healthy Smile",
+      "text-1": "Need an implant or dreaming of a pearly white smile? Visit Dentplastistanbul center—we organize medical tourism. We collaborate with dental clinics in Istanbul that offer quality treatment at affordable prices.",
+      "text-2": "Implants, zirconia crowns, and veneers cost half as much as in EU countries and the USA. Experienced doctors use advanced equipment and materials from leading manufacturers, ensuring excellent results."
+    },
+    "treatment": {
+      "title": "Dental Treatment in Istanbul with Dentplastistanbul",
+      "text": "The clinics we recommend strictly adhere to the norms and standards set by the Turkish Ministry of Health, ensuring a high level of safety and quality services for patients. When you choose a dental clinic in Istanbul recommended by Dentplastistanbul, you can be confident that you have made a choice for safety and professionalism.",
+      "block-1": "The clinics employ experienced specialists who have been educated at the best medical universities in Turkey, the USA, and Europe. Special attention is given to the continuous professional development of doctors and their participation in specialized courses.",
+      "block-2": "The clinics we collaborate with use modern infection control methods and disposable instruments in dental treatments in Istanbul, ensuring a safe and sterile environment for every patient. Your health is our top priority.",
+      "block-3": "We recommend only dental clinics in Istanbul that are equipped with modern equipment and collaborate with renowned manufacturers of medical materials."
+    },
+    "services": {
+      "title": "What Services Does Dentistry in Istanbul Offer",
+      "sub-title": "We collaborate with dental clinics that provide a wide range of services. Among the most popular are:",
+      "text-1": "Dental surgery takes place in several stages and therefore takes 5-7 days. After implantation, the orthodontist monitors the successful integration of the titanium rod. Then, crowns, custom-made based on measurements taken during the initial consultation, are placed.",
+      "text-2": "After the crowns/veneers are installed, the client evaluates how comfortable they are. If there is even the slightest discomfort, the orthodontist makes adjustments. At the final stage, the dentist will advise on how to properly care for the artificial crowns to ensure they last as long as possible.",
+      "accordion": {
+        "title-1": "Dental Implants",
+        "text-1": "The ability to restore lost teeth without damaging adjacent ones by grinding. A titanium implant is embedded into the jawbone, and after it integrates, a zirconia crown is placed on it. This method can be used to replace a single tooth or an entire jaw. Dentists use implants from well-known German and Korean manufacturers (Medentika, Osstem, Dentium, MegaGen), which do not cause allergies or rejection. All implants come with a 5-10 year warranty (depending on the brand).",
+        "title-2": "Zirconia Crown Installation",
+        "text-2": "The installation of zirconia crowns, which fully mimic the natural color and translucency of enamel. The crowns are hypoallergenic, durable, and very strong. They can be placed on implants or real teeth when fillings are ineffective.",
+        "title-3": "Creating a 'Hollywood Smile'",
+        "text-3": "Durable veneers made of high-quality, ultra-thin ceramic are attached to the teeth, giving them a beautiful shape and hiding imperfections (crookedness, gaps).",
+        "title-4": "Professional Teeth Cleaning",
+        "text-4": "Using modern equipment, the dentist completely removes tartar and bacterial plaque. The enamel is then polished to remove any roughness and cracks that could trap food, stain the enamel, and promote the growth of bacteria. The final stage involves fluoridation, which strengthens the enamel and reduces tooth sensitivity."
+      }
+    },
+    "why-dentplastistanbul": {
+      "title": "Why You Should Choose Dentplastistanbul for Dental Treatment in Istanbul",
+      "text": "Trust Dentplastistanbul and get the perfect smile without unnecessary expenses! Schedule a consultation by filling out the form on our center's website, and plan your visit to a dental clinic in Istanbul at a convenient time for you!",
+      "sub-title": "By working with us, you will gain the following advantages:",
+      "text-1": "Affordable prices. Thanks to the dental clinics in Istanbul that we recommend, you will save significantly on your treatment.",
+      "text-2": "High-quality services. Our dentists are specialists with many years of experience, and they use modern equipment and materials for dental treatments in Istanbul.",
+      "text-3": "The possibility of combined procedures. During a single visit, you can not only take care of your teeth but also request one of the plastic surgery services: liposuction, breast augmentation, rhinoplasty, or others. This will save you time and money that would otherwise be spent on a return visit.",
+      "text-4": "Russian-speaking support. Don't worry about language barriers! Our staff speaks Russian fluently, ensuring your comfort during all procedures, as confirmed by numerous reviews.",
+      "text-5": "Comfortable accommodation. We will help you choose and book a hotel room that meets your requirements.",
+      "text-6": "Convenient location. Our dental clinic in Istanbul is located in Taksim—one of the city's most vibrant districts. It is famous for its attractions and shops where you can buy interesting souvenirs. The square has a metro station, making it easy to reach from any part of the city.",
+      "text-7": "Combining dental treatment in Istanbul with leisure. Dental procedures usually take a few days, and during your free time, you can explore local attractions or enjoy swimming in the sea. We can help organize a cultural program."
+    }
+  },
+  "plastic": {
+    "main": {
+      "title": "Plastic Surgery in Istanbul — Your Path to Beauty with Dentplastistanbul",
+      "text-1": "Dreaming of beautiful breasts, getting rid of your belly, wrinkles, or correcting the shape of your nose? Contact Dentplastistanbul, a center that provides medical tourism services in Turkey.",
+      "text-2": "We will find the best plastic surgery clinic in Istanbul for you, where experienced doctors work, and modern equipment and innovative approaches ensure maximum safety and comfort for patients."
+    },
+    "specialities": {
+      "title": "Features of Plastic Surgery at Dentplastistanbul",
+      "text": "By choosing Dentplastistanbul, you can be confident in quality, safety, and professionalism. We want every client to be satisfied with our work and for the result to exceed expectations. Our center recommends plastic surgery clinics in Istanbul that fully comply with international standards:",
+      "block-1": "The surgeons are members of the Turkish Society of Plastic, Reconstructive, and Aesthetic Surgery, which guarantees a high level of professionalism. The doctors continuously improve their skills and competencies by attending conferences, seminars, and advanced training courses.",
+      "block-2": "Doctors use equipment and medical materials from well-known brands in their work. This ensures high-quality results and minimizes the risk of complications.",
+      "block-3": "Plastic surgery clinics in Istanbul are equipped with modern sterilization systems that thoroughly process surgical instruments after each use."
+    },
+    "services": {
+      "title": "What Services Does the Dentplastistanbul Center Provide",
+      "sub-title": "We collaborate with plastic surgery clinics in Istanbul that offer the following services:",
+      "text": "We offer comprehensive plastic surgery services in Istanbul, meaning the opportunity to undergo two surgeries on the body in a single visit. This will save not only your money but also the time spent on travel, testing, and rehabilitation.",
+      "accordion": {
+        "title-1": "Breast Augmentation",
+        "text-1": "Implants from the German manufacturer Polytech / American Mentor are used, ensuring excellent biocompatibility and durability. Qualified plastic surgeons in Istanbul select a breast shape that looks as natural and proportional as possible.",
+        "title-2": "Facelift",
+        "text-2": "Aimed at correcting age-related changes and rejuvenation. Doctors eliminate fine wrinkles on the forehead and around the eyes, folds in the nasolabial area, and enhance the cheekbones. They also correct the contours of the face and neck, and remove a double chin.",
+        "title-3": "Rhinoplasty",
+        "text-3": "Restoration or alteration of the nose shape. The surgery may involve reducing or increasing its size, removing a hump, or correcting the tip. When planning rhinoplasty, the plastic surgeon in Istanbul carefully considers the patient's facial features.",
+        "title-4": "Liposuction",
+        "text-4": "Removal of fat deposits in specific areas of the body (such as the abdomen, thighs, buttocks, forearms, etc.).",
+        "title-5": "Abdominoplasty",
+        "text-5": "Doctors restore the aesthetic proportions of the abdomen by excising excess skin and fat deposits. This is a complex operation that requires significant experience and knowledge. The plastic surgeons in Istanbul with whom we collaborate have this experience."
+      }
+    },
+    "the-way": {
+      "title": "How a Visit to the Dentplastistanbul Plastic Surgery Clinic in Istanbul Proceeds",
+      "text-1": "When you arrive in Turkey, a transfer will meet you and take you to the hotel. We offer accommodation in a hotel near the sea, where luxury and semi-luxury rooms are available. Additionally, based on your preferences, we can arrange accommodation in another hotel.",
+      "text-2": "At the agreed time, you will arrive at the plastic surgery clinic in Istanbul that we recommend. A surgeon will be waiting for you to conduct an examination, order tests, assess your overall health, and discuss the details of the surgery.",
+      "text-3": "The surgery is performed under anesthesia. For five to seven days, you will be under the supervision of our plastic surgeon in Istanbul, who will monitor your recovery.",
+      "text-4": "Full healing can take from two weeks to several months, depending on the type of surgery. For one year, we provide patients with online consultation services, and you can contact your plastic surgeon in Istanbul with any questions related to the surgery."
+    },
+    "why-dentplastistanbul": {
+      "title": "Why You Should Choose Dentplastistanbul",
+      "text": "Your health and beauty are the focus of our work. Contact us to discuss the details and plan your visit.",
+      "sub-title": "A list of benefits we guarantee to our clients:",
+      "text-1": "Services of highly qualified surgeons whose expertise is confirmed by Turkish and international diplomas and expert reviews.",
+      "text-2": "The use of the most modern methods and equipment, ensuring maximum safety and comfort for patients in the plastic surgery clinic in Istanbul.",
+      "text-3": "Optimal 'price-quality' ratio. Compared to medical costs in the EU and the USA, the cost of plastic surgery in Istanbul is half as much. At the same time, our doctors provide services whose quality is on par with the best European clinics.",
+      "text-4": "Compliance of all procedures with the requirements and standards set by the Turkish Ministry of Health. The quality of treatment is monitored by the Turkish Medical Association.",
+      "text-5": "Individual approach and comfort. Our managers and doctors at the plastic surgery clinic in Istanbul, with whom we collaborate, will carefully listen to your wishes and offer optimal solutions."
+    }
+  },
+  "breast-enlargement": {
+    "main": {
+      "title": "Breast Enlargement in Istanbul with Dentplastistanbul — The Best Clinics for You!",
+      "text-1": "Want to enlarge your breasts and give them a beautiful shape? Contact Dentplastistanbul — a center for organizing medical tourism to Turkey.",
+      "text-2": "We collaborate with the best clinics in the country that perform breast enlargement in Istanbul using modern equipment, innovative approaches, and implants from well-known brands."
+    },
+    "clinics": {
+      "title": "Which Clinics Does Dentplastistanbul Work With",
+      "text": "We care about the interests of our clients. By contacting Dentplastistanbul, you will receive high-quality medical services at an affordable price. The plastic surgery clinics we recommend to our clients:",
+      "block-1": "Have a license from the Turkish Ministry of Health and JCI accreditation, confirming that the facility meets international quality and safety standards and implements best medical practices.",
+      "block-2": "Offer the services of plastic and reconstructive surgery specialists with many years of experience.",
+      "block-3": "Strictly adhere to sanitary and hygienic standards. They are equipped with modern sterilization systems for processing surgical instruments. The clinics regularly clean the premises using disinfectants and enforce strict infection control measures."
+    },
+    "procedure": {
+      "title": "How Breast Enlargement is Performed in Istanbul",
+      "text": "Mammoplasty is a cosmetic procedure that allows you to increase breast size and give it a beautiful shape using implants. Our partner clinics use implants from well-known brands that have high biocompatibility and are manufactured according to ISO standards:",
+      "accordion": {
+        "title-1": "Mentor (USA)",
+        "text-1": "These round or teardrop-shaped implants contain a gel that keeps the breast soft and firm. The implants have undergone comprehensive testing, confirming their safety and effectiveness, and have CE marking (complying with EU quality standards).",
+        "title-2": "Polytech",
+        "text-2": "Implants from a German company known for product quality, scientific, and manufacturing innovations. The prosthesis shell is made of several layers of silicone elastomer, resistant to chemical and mechanical damage. The filler is a cohesive gel whose molecules are closely bonded, forming a strong three-dimensional network. This means that the gel does not leak out even if the shell is ruptured.",
+        "title-3": "Motiva Implants",
+        "text-3": "Implants whose quality meets EU and US standards. They come in round, teardrop-shaped models, as well as ergonomic options that perfectly mimic natural breast movement. Each implant is covered with the super-elastic TrueMonobloc shell, which is highly resistant to ruptures. A special barrier in the middle layer of the implant prevents the filler gel from leaking into the body and prevents infection."
+      }
+    },
+    "visit": {
+      "title": "How a Plastic Surgery Procedure Proceeds at Dentplastistanbul in Istanbul",
+      "step-1": "During the initial consultation before the surgery, the doctor will select the implant shape that will make your breasts perfect. They will confirm the type of anesthesia, check for allergies, and assess your overall health. Some tests may be required if you haven't completed them before arriving in Turkey.",
+      "step-2": "The surgery is performed under general anesthesia. The implants are placed under the pectoral muscle to give the breasts a beautiful and natural shape. The surgeon makes two incisions on the right and left sides of the breast, through which the implants are inserted.",
+      "step-3": "Then, the incisions are closed with multilayer sutures. After some time, they will heal, and the stitches will dissolve.",
+      "step-4": "The surgery takes 1-2 hours. You will remain under the doctor's supervision for another 5-6 days. To ensure a quick recovery, it's important to follow all of the doctor's instructions."
+    },
+    "why-dentplastistanbul": {
+      "title": "Why You Should Choose Dentplastistanbul",
+      "text": "Fill out the application form on our website to get detailed information about our services and plan your visit!",
+      "sub-title": "Trust Dentplastistanbul, and you'll enjoy the following key benefits:",
+      "text-1": "Affordable prices. The cost of breast augmentation in Istanbul is half the price of similar procedures in Europe and the USA.",
+      "text-2": "Wide range of services. We collaborate with specialists in plastic surgery and dentistry. Tell us what you need, and we will find the best doctor for breast augmentation in Istanbul or any other cosmetic or dental procedure.",
+      "text-3": "Guaranteed quality. We work only with trusted clinics and highly qualified doctors, as confirmed by the grateful reviews of our clients.",
+      "text-4": "The opportunity to combine surgeries during your visit to Turkey. To save time and money, you can have two surgeries at once, such as breast augmentation in Istanbul and rhinoplasty (nose reshaping) or liposuction (removal of fat deposits).",
+      "text-5": "Comfortable leisure. Want to explore the sights of the Turkish capital? We'll take care of your cultural program and help organize your leisure activities."
+    }
 
+  }
 }

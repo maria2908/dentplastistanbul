@@ -67,12 +67,8 @@ const settings = ref({
 </script>
 
 <template>
-  <h1 class="text-center mt-8">Особенности проживания во время лечения в Турции</h1>
-  <p class="w-11/12 md:w-3/4 text-center mx-auto mb-12">
-    Мы предлагаем проживание в шикарной гостинице, которая расположена недалеко от моря. Доступны номера типа люкс и полулюкс с
-    включенным завтраком, SPA-зоной, услугами трансфера. Это идеальное место для клиентов, которые хотят сочетать качественное
-    лечение с комфортным отдыхом.
-  </p>
+  <h1 class="text-center mt-8">{{ $t('main-page.accommodation.title') }}</h1>
+  <p class="w-11/12 md:w-3/4 text-center mx-auto mb-12">{{ $t('main-page.accommodation.text') }}</p>
   <Carousel v-bind="settings">
     <Slide v-for="(slide, index) in slides" :key="index" class="px-2 md:px-4 w-full h-48 md:h-72">
       <img class="w-full h-full object-cover rounded-lg" :src="slide.img">
@@ -83,14 +79,14 @@ const settings = ref({
       </div>
     </template>
   </Carousel>
-  <p class="w-11/12 md:w-3/4 text-center mx-auto mt-20">
-    Конечно, вы можете выбрать другой отель, если он лучше соответствует вашим критериям. Мы поможем забронировать номер.
-  </p>
+  <p class="w-11/12 md:w-3/4 text-center mx-auto mt-20">{{ $t('main-page.accommodation.subtitle') }}</p>
 </template>
 
 <style lang="scss">
 .navi-accommodation {
   .carousel__next {
+    background-color: white;
+    border-radius: 20px;
     position: absolute;
     right: -2%;
     top: 50%;
@@ -98,43 +94,12 @@ const settings = ref({
   }
 
   .carousel__prev {
+    background-color: white;
+    border-radius: 20px;
     position: absolute;
     left: -2%;
     top: 50%;
     transform: translateY(-50%);
-  }
-}
-
-@media (max-width: 1024px) {
-  .navi-accommodation {
-    .carousel__next {
-      right: 0;
-    }
-
-    .carousel__prev {
-      left: 0;
-    }
-  }
-}
-
-@media (max-width: 769px) {
-  .navi-accommodation {
-    .carousel__next {
-      top: 115%;
-      background-color: #AD9173;
-      border-radius: 40px;
-      padding: 2px;
-      right: 43%;
-    }
-
-    .carousel__prev {
-      top: 115%;
-      background-color: #AD9173;
-      border-radius: 40px;
-      padding: 2px;
-      left: 43%;
-
-    }
   }
 }
 </style>

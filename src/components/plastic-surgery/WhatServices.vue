@@ -1,7 +1,7 @@
 <template>
   <!-- Main Heading -->
   <h1 class="mt-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">
-    Какие услуги предоставляет центр Dentplastistanbul
+    {{ $t('plastic.services.title')}}
   </h1>
 
   <!-- Main Content Area -->
@@ -9,46 +9,46 @@
     <!-- Accordion Section -->
     <div class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8">
       <p class="underline text-lg sm:text-xl text-center my-4 mb-8">
-        Мы сотрудничаем с клиниками пластической хирургии в Стамбуле, предоставляющими такие услуги:
+        {{ $t('plastic.services.sub-title')}}
       </p>
       <Accordion value="0">
         <AccordionPanel value="0">
-          <AccordionHeader>Увеличение груди</AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-1')}}</AccordionHeader>
           <AccordionContent>
             <p class="m-0">
-               Применяются импланты немецкого производителя Polytech / американского Mentor, обеспечивающие отличную биосовместимость и долговечность. Квалифицированные пластические хирурги в Стамбуле подбирают форму груди, которая выглядит максимально естественно и пропорционально.
+              {{ $t('plastic.services.accordion.text-1')}}
             </p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="1">
-          <AccordionHeader>Подтяжка лица</AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-2')}}</AccordionHeader>
           <AccordionContent>
             <p class="m-0">
-              Направлена на коррекцию возрастных изменений и омоложение. Врачи избавляют от мелких морщин на лбу и вокруг глаз, складок в зоне носогубного треугольника, делают выразительнее скулы. Корректируют овал лица, шеи, убирают второй подбородок.
+              {{ $t('plastic.services.accordion.text-2')}}
             </p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="2">
-          <AccordionHeader>Ринопластика </AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-3')}} </AccordionHeader>
           <AccordionContent>
             <p class="m-0">
-              Восстановление или изменение формы носа. Операция может предусматривать уменьшение или увеличение его размера, устранение горбинки, коррекцию кончика. Планируя ринопластику, пластический хирург в Стамбуле обязательно учитывает особенности лица пациента.
+              {{ $t('plastic.services.accordion.text-3')}}
             </p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="3">
-          <AccordionHeader>Липосакция </AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-4')}} </AccordionHeader>
           <AccordionContent>
             <p class="m-0">
-              Удаление жировых отложений на определенных участках тела (на животе, бедрах, ягодицах, предплечьях и пр.)
+              {{ $t('plastic.services.accordion.text-4')}}
             </p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="4">
-          <AccordionHeader>Абдоминопластика</AccordionHeader>
+          <AccordionHeader>{{ $t('plastic.services.accordion.title-5')}}</AccordionHeader>
           <AccordionContent>
             <p class="m-0">
-              Врачи восстанавливают эстетические пропорции живота, иссекая лишнюю кожу и жировые отложения. Это сложная операция, которая требует от врача большого опыта и знаний. У пластических хирургов в Стамбуле, с которыми мы сотрудничаем, такой опыт есть.
+              {{ $t('plastic.services.accordion.text-5')}}
             </p>
           </AccordionContent>
         </AccordionPanel>
@@ -57,10 +57,9 @@
 
     <!-- Description Section -->
     <div
-        class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
-      <p>
-        Мы предлагаем комплексные услуги пластической хирургии в Стамбуле, то есть возможность провести за один приезд сразу две операции на теле. Это сэкономит не только ваши деньги, но и время, потраченное на приезд, проведение анализов, реабилитацию.
-      </p>
+        class="w-full lg:w-1/2 p-6 sm:p-8 md:p-12 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
+      {{ $t('plastic.services.text')}}
+
     </div>
   </div>
 </template>

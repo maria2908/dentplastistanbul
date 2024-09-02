@@ -1,7 +1,7 @@
 <template>
   <!-- Main Heading -->
   <h1 class="mt-12 text-xl sm:text-2xl md:text-3xl lg:text-4xl text-center">
-    Какие услуги предлагает стоматология в Стамбуле
+    {{ $t('dentistry.services.title')}}
   </h1>
 
   <!-- Main Content Area -->
@@ -9,49 +9,31 @@
     <!-- Accordion Section -->
     <div class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8">
       <p class="underline text-lg sm:text-xl text-center my-4 mb-8">
-        Мы сотрудничаем со стоматологическими клиниками, предоставляющими
-        широкий спектр услуг. В числе самых востребованных:
+        {{ $t('dentistry.services.sub-title')}}
       </p>
       <Accordion value="0">
         <AccordionPanel value="0">
-          <AccordionHeader>Дентальная имплантация</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-1')}}</AccordionHeader>
           <AccordionContent>
-            <p class="m-0">
-              Возможность восстановить утраченные зубы, не повреждая соседние стачиванием. В челюстную кость внедряется титановый
-              имплант, на который после приживления устанавливается циркониевая коронка. Этим методом можно сделать как зуб, так и
-              всю челюсть. Стоматологи используют в работе импланты известных немецких и корейских производителей (Medentika,
-              Osstem, Dentium, MegaGen), не вызывающие аллергии и отторжения. На все импланты дается гарантия на 5-10 лет (зависит
-              от бренда).
-            </p>
+            <p class="m-0">{{ $t('dentistry.services.accordion.text-1')}}</p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="1">
-          <AccordionHeader>Установка циркониевых коронок</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-2')}}</AccordionHeader>
           <AccordionContent>
-            <p class="m-0">
-              Установка циркониевых коронок, которые полностью имитируют натуральный цвет и прозрачность эмали. Коронки
-              гипоаллергенные, долговечные и очень прочные. Устанавливаются на импланты или настоящий зуб, когда пломбирование
-              неэффективно.
-            </p>
+            <p class="m-0">{{ $t('dentistry.services.accordion.text-2')}}</p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="2">
-          <AccordionHeader>Создание «голливудской улыбки»</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-3')}}</AccordionHeader>
           <AccordionContent>
-            <p class="m-0">
-              Прочные виниры из тончайшей керамики высокого качества прикрепляются к зубам, придавая им красивую форму, скрывая
-              недостатки (кривизну, щели).
-            </p>
+            <p class="m-0">{{ $t('dentistry.services.accordion.text-3')}}</p>
           </AccordionContent>
         </AccordionPanel>
         <AccordionPanel value="3">
-          <AccordionHeader>Профессиональная чистка зубов</AccordionHeader>
+          <AccordionHeader>{{ $t('dentistry.services.accordion.title-4')}}</AccordionHeader>
           <AccordionContent>
-            <p class="m-0">
-              С помощью современного оборудования стоматолог полностью удаляет камни и бактериальный налет. Затем полирует эмаль,
-              чтобы убрать неровности и трещинки, за которые могла бы зацепиться пища и окрасить эмаль, способствовать развитию
-              микробов. На завершающем этапе проводится фторирование, укрепляющее эмаль и снижающее чувствительность зубов.
-            </p>
+            <p class="m-0">{{ $t('dentistry.services.accordion.text-4')}}</p>
           </AccordionContent>
         </AccordionPanel>
       </Accordion>
@@ -61,15 +43,9 @@
     <div
         class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
       <p>
-        Стоматологическая операция проходит в несколько этапов, а потому занимает 5-7 дней. После имплантации ортодонт следит за
-        тем, чтобы приживление титанового стержня прошло успешно. Затем ставит коронки, изготовленные по индивидуальным замерам
-        (их делают на первой консультации).
+        {{ $t('dentistry.services.text-1')}}
       </p>
-      <p class="pt-6">
-        После установки коронок/виниров клиент оценивает, насколько они комфортны. Если есть хоть небольшое неудобство, ортодонт
-        проводит коррекцию. На завершающем этапе стоматолог посоветует, как правильно ухаживать за искусственными коронками, чтобы
-        они прослужили максимально долго.
-      </p>
+      <p class="pt-6">{{ $t('dentistry.services.text-2')}}</p>
     </div>
   </div>
 </template>
