@@ -28,10 +28,10 @@
       <div class="row">
         <ul>
           <li><a href="#">{{ $t('menu.main') }}</a></li>
-          <li><a href="#">Стоматология</a></li>
-          <li><a href="#">Пластическая хирургия</a></li>
-          <li><a href="#">Увеличение груди</a></li>
-          <li><a href="#">Липосакция</a></li>
+          <li><a href="#">{{ $t('menu.dentistry') }}</a></li>
+          <li><a href="#">{{ $t('menu.plastic-surgery') }}</a></li>
+          <li><a href="#">{{ $t('menu.breast-enlargement') }}</a></li>
+          <li><a href="#">{{ $t('menu.liposuction') }}</a></li>
         </ul>
       </div>
 

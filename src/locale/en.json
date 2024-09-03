@@ -6,6 +6,24 @@
     "breast-enlargement": "Breast Enlargement",
     "liposuction": "Liposuction"
   },
+  "form": {
+    "name": "First and Last Name",
+    "email": "Email Address",
+    "phone": "Phone",
+    "type-of-operation": "Type of Operation",
+    "type-of-operation-option": {
+      "text-1": "Facelift",
+      "text-2": "Mammoplasty",
+      "text-3": "Rhinoplasty",
+      "text-4": "Abdominoplasty and Liposuction",
+      "text-5": "Dental Implant Installation",
+      "text-6": "Dental Implant Installation",
+      "text-7": "Zirconia Crown Installation",
+      "text-8": "Creation of 'Hollywood Smile'"
+    },
+    "send": "Send",
+    "comment": "Comment"
+  },
   "main-page": {
     "welcome": {
       "title": "Medical Tourism in Istanbul with Dentplastistanbul",
@@ -237,6 +255,62 @@
       "text-3": "Guaranteed quality. We work only with trusted clinics and highly qualified doctors, as confirmed by the grateful reviews of our clients.",
       "text-4": "The opportunity to combine surgeries during your visit to Turkey. To save time and money, you can have two surgeries at once, such as breast augmentation in Istanbul and rhinoplasty (nose reshaping) or liposuction (removal of fat deposits).",
       "text-5": "Comfortable leisure. Want to explore the sights of the Turkish capital? We'll take care of your cultural program and help organize your leisure activities."
+    }
+  },
+  "liposuction": {
+    "main": {
+      "title": "Liposuction in Istanbul: Enhance Your Body Contours with Dentplastistanbul",
+      "text": "Want to achieve a more elegant and slimmer figure by removing fat deposits from problem areas? Contact Dentplastistanbul: we specialize in medical tourism to Turkey and collaborate with the best clinics, ensuring high-quality services."
+    },
+    "chose-clinic": {
+      "title": "How to Choose a Reliable Clinic for Liposuction in Istanbul",
+      "accordion": {
+        "title-1": "License",
+        "text-1": "The clinics are licensed by the Ministry of Health of Turkey. This document confirms that the facility meets national standards for the quality and safety of medical services.",
+        "title-2": "Modern Equipment",
+        "text-2": "The clinics are equipped with modern equipment, enabling treatment at a world-class level.",
+        "title-3": "Certificates",
+        "text-3": "The surgeons hold certificates from the Turkish Medical Association, which confirms their qualifications and right to practice in the country. The doctors are members of the Turkish Society of Plastic, Reconstructive and Aesthetic Surgery and/or the International Society of Aesthetic Plastic Surgery.",
+        "title-4": "Courses",
+        "text-4": "Surgeon specialists regularly attend advanced training courses, participate in specialized seminars, and attend scientific and practical conferences."
+      },
+      "text-1": "Liposuction is a complex surgery that, if performed improperly, can lead to serious side effects. We understand the full responsibility, which is why we work only with the best medical centers and doctors.",
+      "text-2": "Caring for our clients, we choose clinics in Istanbul for liposuction where quality and professionalism are the top priorities."
+    },
+    "procedures": {
+      "title": "How the Liposuction Procedure is Conducted",
+      "text": "To enhance body contours, the surgeon removes fat deposits from problem areas that are difficult to eliminate through exercise and diet:",
+      "list": {
+        "text-1": "from the abdomen",
+        "text-2": "flanks (waist)",
+        "text-3": "areas between the legs at the upper thighs",
+        "text-4": "outer thighs (“saddlebags” or “love handles”)",
+        "text-5": "buttocks",
+        "text-6": "back",
+        "text-7": "chin and neck",
+        "text-8": "chest",
+        "text-9": "knees"
+      }
+    },
+    "procedure": {
+      "title": "How the Plastic Surgery Procedure is Conducted in Istanbul at Dentplastistanbul",
+      "text-1": "In the area of the body where subcutaneous fat is to be removed, the surgeon makes a small incision through which a tube is inserted. Using a special device, the doctor breaks down the fat tissue. It turns into a liquid substance and is extracted from the body through a cannula using a vacuum suction.",
+      "text-2": "All adipocytes, the main components of fat tissue, are removed from the operated area. They will no longer grow or divide, meaning that fat will no longer accumulate in this area of the body.",
+      "text-3": "The operation lasts 1–2 hours, after which the patient is monitored by the surgeon for 5–6 days. Healing takes several weeks, during which time physical exertion, swimming pools, and saunas should be avoided. It is necessary to wear compression garments and follow all of the doctor's instructions.",
+      "text-4": "The effect of liposuction is immediately noticeable as fat deposits disappear. The body will look better in 2-3 months, once the stitches have healed, the swelling and bruising have subsided, and the skin has regained its firmness and smoothness."
+    },
+    "why-dentplastistanbul": {
+      "title": "Why You Should Choose Dentplastistanbul for Liposuction in Istanbul",
+      "text": "We provide comprehensive support at all stages of your visit and surgery, from selection to rehabilitation. We guarantee the quality of medical services, the safety of the client’s health, and a personalized approach. By choosing Dentplastistanbul, you can be confident that you will receive professional service, safety, and comfort at every stage of your treatment in Turkey. Fill out the form on the website so that our manager can inform you about all the services, answer your questions, and help you choose a date for your visit.",
+      "sub-title": "By choosing Dentplastistanbul, you will enjoy the following benefits:",
+      "list": {
+        "text-1": "Affordable prices. The cost of liposuction in Istanbul is half that of the EU and the USA, while the quality of services meets international standards of plastic surgery.",
+        "text-2": "Complete trip organization. We take care of organizing your trip to Istanbul, including booking flights and hotel rooms, and providing airport transfers. We arrange your appointment with the doctor, liposuction in Istanbul, and postoperative care. If you wish to explore the city, we will also arrange a sightseeing program.",
+        "text-3": "Verified doctors. We recommend a clinic for liposuction in Istanbul based on its reputation and patient reviews. We only collaborate with licensed institutions that strictly monitor the qualifications of their specialists.",
+        "text-4": "The opportunity to address multiple areas of the body in one trip to Turkey. For example, you can combine breast augmentation and liposuction in Istanbul, rhinoplasty, and a facelift.",
+        "text-5": "Language support. We provide English- and Russian-speaking interpreters at all stages of the trip, ensuring there are no misunderstandings and that you have maximum comfort during your stay and treatment.",
+        "text-6": "Online consultations with the doctor. We understand that you may have questions about your well-being after liposuction in Istanbul, so we offer online consultations for a year."
+      }
     }
 
   }

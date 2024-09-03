@@ -59,34 +59,34 @@ onClickOutside(target, () => emit('modal-close'))
         <form id="stripe-login" @submit.prevent="sendEmail">
           <div class="input-container">
             <input v-model="name" required="" name="name"/>
-            <label for="name" class="label">Имя и Фамилия</label>
+            <label for="name" class="label">{{ $t('form.name') }}</label>
             <div class="underline"></div>
           </div>
           <div class="input-container">
             <input v-model="email" required="" name="email">
-            <label for="email" class="label">Email</label>
+            <label for="email" class="label">{{ $t('form.email') }}</label>
             <div class="underline"></div>
           </div>
           <div class="input-container">
             <input v-model="phone" required="" name="phone">
-            <label for="phone" class="label">Телефон</label>
+            <label for="phone" class="label">{{ $t('form.phone') }}</label>
             <div class="underline"></div>
           </div>
           <div class=" pb-5">
             <select v-model="selected" class="selected-container ">
-              <option disabled value="">Вид операции</option>
-              <option>Фейслифтинг</option>
-              <option>Маммопластика</option>
-              <option>Ринопластика</option>
-              <option>Абдоминопластика и липосакция</option>
-              <option>Установка дентальных имплантов</option>
-              <option>Установка циркониевых коронок</option>
-              <option>Создание «голливудской улыбки»</option>
+              <option disabled value="">{{ $t('form.type-of-operation') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-1') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-2') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-3') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-4') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-5') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-6') }}</option>
+              <option>{{ $t('form.type-of-operation-option.text-7') }}</option>
             </select>
           </div>
-          <textarea v-model="message" placeholder="Коментарий" class="mt-7"></textarea>
+          <textarea v-model="message" :placeholder="$t('form.comment')" class="mt-7"></textarea>
 
-          <button type="submit" class="my-6 p-3 bg-customDarkBeg text-white rounded-xl px-9 mx-auto ">Отправить</button>
+          <button type="submit" class="my-6 p-3 bg-customDark text-white rounded-xl px-9 mx-auto ">{{ $t('form.send') }}</button>
         </form>
       </div>
     </div>

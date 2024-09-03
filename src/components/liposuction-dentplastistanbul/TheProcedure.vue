@@ -2,11 +2,11 @@
 </script>
 <template>
   <div class="mt-12">
-    <h1 class="my-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">Как проходит пластическая процедура в Стамбуле Dentplastistanbul</h1>
+    <h1 class="my-12 text-lg sm:text-xl md:text-2xl lg:text-3xl text-center">{{ $t('liposuction.procedure.title') }}</h1>
     <div class="timeline relative mx-auto w-full md:w-4/5 lg:w-3/4 flex flex-col">
       <div class="timeline-item flex justify-between items-center mb-12 md:h-48">
         <div class="timeline-content  md:pr-8 w-full md:w-1/2">
-          <p class="pr-6">На участке тела, где планируется убрать подкожный жир, хирург делает небольшой разрез, через который вставляет трубку. С помощью специального аппарата врач разрушает жировую ткань. Она превращается в жидкую субстанцию и через канюлю извлекается из тела вакуумным отсосом</p>
+          <p class="pr-6">{{ $t('liposuction.procedure.text-1') }}</p>
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-image flex justify-around items-center w-full md:w-1/2 md:pl-8 pl-8">
@@ -20,15 +20,13 @@
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-content w-full md:w-1/2 md:pl-8">
-          <p class="pl-6">Из оперируемой зоны удаляются все адипоциты — основные компоненты жировой ткани. Расти и делиться они больше не будут, а значит, жир на этом участке тела больше не появится.
-          </p>
+          <p class="pl-6">{{ $t('liposuction.procedure.text-2') }}</p>
         </div>
       </div>
 
       <div class="timeline-item flex justify-between items-center mb-12 md:h-48">
         <div class="timeline-content md:pr-8 w-full md:w-1/2">
-          <p class="pr-6">Продолжительность операции — 1–2 часа, после нее пациент находится под наблюдением хирурга 5–6 дней. Заживление длится несколько недель, в течение которых нельзя физически перенапрягаться, ходить в бассейны, сауну. Нужно носить корректирующее белье и выполнять все указания врача.
-          </p>
+          <p class="pr-6">{{ $t('liposuction.procedure.text-3') }}</p>
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-image flex justify-center w-full md:w-1/2 md:pl-8">
@@ -42,8 +40,7 @@
         </div>
         <div class="timeline-dot"></div>
         <div class="timeline-content w-full md:w-1/2 md:pl-8">
-          <p class="pl-6">Эффект липосакции заметен сразу, поскольку исчезают жировые участки. Тело будет лучше выглядеть через 2-3 месяца, когда заживут швы, сойдут отеки и синяки, а кожа восстановит упругость и разгладится.
-          </p>
+          <p class="pl-6">{{ $t('liposuction.procedure.text-4') }}</p>
         </div>
       </div>
       <!-- Repeat for more items -->
