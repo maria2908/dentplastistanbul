@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-customGray bg-opacity-70 text-white m-4 rounded-2xl py-6">
-    <h1 class="text-center mx-auto">{{ $t('main-page.standards.title') }}</h1>
-    <p class="mb-12 w-1/2 text-center my-auto mx-auto">{{ $t('main-page.standards.subtitle') }}    </p>
+  <div class="bg-customGray bg-opacity-70  m-4 rounded-2xl py-6">
+    <h1 class="text-center text-xl md:text-2xl lg:text-3xl mb-4">{{ $t('main-page.standards.title') }}</h1>
+    <p class="mb-12 px-4 text-center my-auto mx-auto lg:w-1/2 md:w-full">{{ $t('main-page.standards.subtitle') }}    </p>
     <div class="tablet mx-48 flex">
       <div class="block w-full">
         <div class="flex w-full">
-          <img style="height: 30vh; " class=" w-full object-cover " src="../../assets/img/statistic.JPG">
+          <img style="height: 30vh; " class="w-full object-cover " src="../../assets/img/statistic.JPG">
           <p class="w-full bg-white text-black content-center text-center">{{ $t('main-page.standards.text-1') }}</p>
         </div>
         <div class="flex  w-full">
@@ -26,7 +26,7 @@
       </div>
     </div>
 
-    <p class="py-12 w-1/2 text-center mx-auto">{{ $t('main-page.standards.subtitle-2') }}</p>
+    <p class="py-12 text-center mx-auto lg:w-1/2 md:w-full">{{ $t('main-page.standards.subtitle-2') }}</p>
   </div>
 </template>
 

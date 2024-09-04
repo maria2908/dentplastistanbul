@@ -1,6 +1,8 @@
 <script setup>
 import { ref, onMounted } from 'vue';
 import { useI18n } from 'vue-i18n';
+import MainButton from "@/components/MainButton.vue";
+import Button from "@/components/Button.vue";
 
 const activeBarMenu = ref(false);
 const isFixed = ref(false);
@@ -58,7 +60,7 @@ onMounted(() => {
       >
         {{ $t(item.text) }}
       </router-link>
-      <div class="dropdown relative ml-4 mt-4">
+      <div class="dropdown relative ml-3 mr-4 mt-4">
         <span class="material-icons pr-4 cursor-pointer">translate</span>
         <div class="dropdown-content lg:block">
           <p @click="setLanguage('ru')" :class="{ isActive: locale === 'ru' }">RU</p>
@@ -66,6 +68,8 @@ onMounted(() => {
           <p @click="setLanguage('en')" :class="{ isActive: locale === 'en' }">EN</p>
         </div>
       </div>
+
+      <MainButton >{{ $t('main-page.welcome.apply') }}</MainButton>
     </ul>
 
     <!-- Small Screen Toggle Button -->
@@ -80,7 +84,9 @@ onMounted(() => {
           <p @click="setLanguage('en')" :class="{ isActive: locale === 'en' }">EN</p>
         </div>
       </div>
-      <button @click="handleActiveBarMenu" class="text-2xl">☰</button>
+      <Button>{{ $t('main-page.welcome.apply') }}</Button>
+
+      <button @click="handleActiveBarMenu" class="text-2xl ml-4">☰</button>
     </div>
 
     <!-- Menu for Small Screens -->
@@ -100,6 +106,7 @@ onMounted(() => {
 </template>
 
 <style scoped>
+
 .fixed {
   position: fixed;
   top: 0;

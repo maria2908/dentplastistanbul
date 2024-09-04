@@ -52,10 +52,10 @@ onClickOutside(target, () => emit('modal-close'))
 </script>
 <template>
   <div v-if="isOpen" class="modal-mask content-center">
-    <div style="max-width: 500px" class="bg-white mx-auto rounded-2xl relative text-center" ref="target">
+    <div style="max-width: 500px" class="form bg-white mx-auto rounded-2xl relative text-center " ref="target">
       <span @click.stop="emit('modal-close')" class="material-symbols-outlined absolute right-0 p-4 cursor-pointer">close</span>
-      <div class=" px-20">
-        <h2 class="pt-12 text-3xl">Подать заяву</h2>
+      <div class="container px-20">
+        <h2 class="pt-12 text-3xl">{{ $t('main-page.welcome.apply') }}</h2>
         <form id="stripe-login" @submit.prevent="sendEmail">
           <div class="input-container">
             <input v-model="name" required="" name="name"/>
@@ -125,7 +125,7 @@ textarea {
   min-height: 150px;
   width: 100%;
   border: 2px solid #ccc;
-
+  padding: 10px ;
 }
 
 .selected-container {
@@ -173,6 +173,20 @@ input:focus {
 .input-container input:focus ~ .underline,
 .input-container input:valid ~ .underline {
   transform: scaleX(1);
+}
+
+@media (max-width: 500px) {
+  .form {
+    max-width: 300px !important;
+  }
+
+  .container {
+    padding: 0 40px;
+  }
+
+  textarea {
+    min-height: 100px;
+  }
 }
 
 </style>

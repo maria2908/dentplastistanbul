@@ -1,5 +1,5 @@
 <template>
-  <h1 class="px-6 text-center md:text-left">{{ $t('main-page.where-clinics.title' )}}</h1>
+  <h1 class="text-center text-xl md:text-2xl lg:text-3xl">{{ $t('main-page.where-clinics.title' )}}</h1>
   <div class="map bg-customBeg pt-12 pb-24 block relative">
     <div class="flex flex-col md:flex-row justify-center mt-2 space-y-6 md:space-y-0 md:space-x-12">
       <div class="block w-full md:w-1/4 bg-customBeg rounded-2xl p-8 relative">

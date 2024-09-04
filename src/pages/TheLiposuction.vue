@@ -15,8 +15,9 @@ onMounted(() => {
 <template>
   <main-container>
     <TheMain />
-    <HowChoseTheClinic />
     <TheProcedures />
+
+    <HowChoseTheClinic />
     <TheProcedure />
     <WhyDentplastistanbul />
   </main-container>

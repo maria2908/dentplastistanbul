@@ -5,9 +5,9 @@
   </h1>
 
   <!-- Main Content Area -->
-  <div class="flex flex-col lg:flex-row mt-4 text-justify">
+  <div class="flex flex-col lg:flex-row text-justify">
     <div
-        class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl mt-8 lg:mt-0 lg:ml-8">
+        class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8 flex bg-customDark text-white flex-col items-center justify-center space-y-4 rounded-2xl lg:ml-8">
       <p>
         {{ $t('breast-enlargement.procedure.text')}}
       </p>

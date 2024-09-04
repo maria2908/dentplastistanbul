@@ -41,7 +41,11 @@ const settings = ref({
 })
 
 const breakpoints = ref({
-  700: {
+  640: {
+    itemsToShow: 1,
+    snapAlign: 'center',
+  },
+  768: {
     itemsToShow: 2,
     snapAlign: 'center',
   },
@@ -49,31 +53,40 @@ const breakpoints = ref({
     itemsToShow: 3,
     snapAlign: 'start',
   },
+  1440: {
+    itemsToShow: 4,
+    snapAlign: 'start',
+  },
 })
 </script>
 
 
 <template>
-  <h1 class="text-center">{{ $t('main-page.services.title') }}</h1>
-  <div class="flex flex-col md:flex-row">
-    <div class="w-full md:w-1/3 p-6 rounded-2xl h-fit text-justify">
+  <h1 class="text-center text-xl md:text-2xl lg:text-3xl mb-4">{{ $t('main-page.services.title') }}</h1>
+  <div class="flex flex-col lg:flex-row gap-8 items-center md:items-start">
+    <!-- Text section that will adapt flexibly -->
+    <div class="w-full lg:w-1/3 p-6 rounded-2xl h-auto text-justify bg-gray-100">
       <p>{{ $t('main-page.services.text-1') }}</p>
-      <p class="mt-8 md:mt-32">{{ $t('main-page.services.text-2') }} </p>
+      <p class="mt-8 md:mt-16">{{ $t('main-page.services.text-2') }}</p>
     </div>
-    <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-full md:w-2/3 mt-8 md:mt-0">
-      <Slide v-for="slide in slides" :key="slide">
-        <div class="carousel__item mx-6">
-          <img :src="slide.img" class="mx-auto" />
-          <p class="w-80 mt-4 text-justify">{{$t(slide.title)}}</p>
-        </div>
-      </Slide>
 
-      <template #addons>
-        <div class="navi-services">
-          <Navigation  />
-        </div>
-      </template>
-    </Carousel>
+    <!-- Carousel section that will be flexible on all devices -->
+    <div class="w-full lg:w-2/3">
+      <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-full">
+        <Slide v-for="slide in slides" :key="slide.title" class="p-4">
+          <div class="carousel__item mx-auto text-center">
+            <img :src="slide.img" class="mx-auto w-full h-auto max-w-xs rounded-xl shadow-lg" />
+            <p class="w-full mt-4 text-justify text-sm md:text-base">{{$t(slide.title)}}</p>
+          </div>
+        </Slide>
+
+        <template #addons>
+          <div class="navi-services">
+            <Navigation />
+          </div>
+        </template>
+      </Carousel>
+    </div>
   </div>
 </template>
 
@@ -86,7 +99,7 @@ const breakpoints = ref({
   margin-top: 50px;
 
   .carousel__next {
-    margin-left: 60px;
+    margin-left: 40px;
   }
   .carousel__prev,
   .carousel__next {
@@ -95,9 +108,8 @@ const breakpoints = ref({
     padding: 5px;
     background-color: #AD9173;
     border-radius: 40px;
-    left: -10%;
+    left: 0% !important;
     top: 100%;
   }
 }
 </style>
-

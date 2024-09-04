@@ -67,7 +67,7 @@ const settings = ref({
 </script>
 
 <template>
-  <h1 class="text-center mt-8">{{ $t('main-page.accommodation.title') }}</h1>
+  <h1 class="mt-12 text-center text-xl md:text-2xl lg:text-3xl">{{ $t('main-page.accommodation.title') }}</h1>
   <p class="w-11/12 md:w-3/4 text-center mx-auto mb-12">{{ $t('main-page.accommodation.text') }}</p>
   <Carousel v-bind="settings">
     <Slide v-for="(slide, index) in slides" :key="index" class="px-2 md:px-4 w-full h-48 md:h-72">

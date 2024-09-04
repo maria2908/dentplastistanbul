@@ -43,16 +43,16 @@ const breakpoints = ref({
 
 <template>
   <div class="mb-12">
-    <h1>{{ $t('main-page.feedback.title')}}</h1>
+    <h1 class="text-center text-xl md:text-2xl lg:text-3xl">{{ $t('main-page.feedback.title')}}</h1>
     <div class="w-full pt-4">
       <Carousel v-bind="settings" :breakpoints="breakpoints">
-        <Slide v-for="(slide, index) in slides" :key="index" class="px-4 flex">
-          <div class="shadow mx-auto bg-white mt-9 rounded-2xl relative pt-4 w-3/4">
+        <Slide v-for="(slide, index) in slides" :key="index" class=" flex">
+          <div class="shadow mx-auto bg-white mt-9 rounded-2xl relative pt-4 px-6 w-3/4">
             <div class="w-16 h-16 bg-customDarkBeg text-white mx-auto text-2xl absolute -top-8 left-1/2 transform -translate-x-1/2 flex items-center justify-center rounded-full shadow-2">
               {{ slide.name.charAt(0) }}
             </div>
             <div class="text-center mt-12 font-bold">{{ slide.name }} / {{ slide.date }}</div>
-            <div class="text-center mt-4 px-8">{{ $t(slide.title) }}</div>
+            <div class=" mt-4 text-justify">{{ $t(slide.title) }}</div>
             <div class="mx-auto my-3">
               <StarRating :initialRating="slide.stars" :totalStars="5" />
             </div>
@@ -79,7 +79,8 @@ const breakpoints = ref({
 .navi-services {
   .carousel__next {
     position: absolute;
-    left: 5% !important;
+    left: 5% ;
+    margin-left: 60px;
   }
   .carousel__prev, .carousel__next {
     position: absolute;
@@ -91,4 +92,19 @@ const breakpoints = ref({
     top: 100%;
   }
 }
+
+@media (max-width: 800px) {
+  .navi-services {
+    .carousel__next {
+      left: -10% !important;
+      top: 0;
+    }
+
+    .carousel__prev {
+      left: -10% !important;
+      top: 0;
+    }
+  }
+}
+
 </style>

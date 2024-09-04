@@ -3,7 +3,7 @@
     {{ $t('breast-enlargement.clinics.title')}}
   </h1>
 
-  <p class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto text-center mt-4">
+  <p class="w-full sm:w-3/4 md:w-2/3 lg:w-1/2 mx-auto text-center">
     {{ $t('breast-enlargement.clinics.text')}}
   </p>
 

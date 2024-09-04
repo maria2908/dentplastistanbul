@@ -3,11 +3,11 @@
     {{ $t('liposuction.why-dentplastistanbul.title') }}
   </h1>
 
-  <p class="mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-2/3 py-6 ">
+  <p class="mx-auto lg:text-center md:text-justify w-full sm:w-3/4 md:w-2/3 lg:w-2/3 pb-6 text-justify sm:text-justify">
     {{ $t('liposuction.why-dentplastistanbul.text') }}
   </p>
 
-  <p class="p-6 mt-6 text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
+  <p class="p-6 mt-6 text-md md:text-lg lg:text-xl text-white bg-customBeg mx-auto text-center w-full sm:w-3/4 md:w-2/3 lg:w-fit rounded-2xl">
     {{ $t('liposuction.why-dentplastistanbul.sub-title') }}
   </p>
 

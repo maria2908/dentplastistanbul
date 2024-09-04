@@ -3,7 +3,7 @@
     {{ $t('liposuction.chose-clinic.title') }}
   </h1>
 
-  <div class="flex flex-col lg:flex-row mt-4 text-justify">
+  <div class="flex flex-col lg:flex-row text-justify">
     <div class="w-full lg:w-1/2 p-4 sm:p-6 md:p-8">
       <Accordion value="0">
         <AccordionPanel value="0">
