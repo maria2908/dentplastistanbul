@@ -7,31 +7,31 @@ import 'vue3-carousel/dist/carousel.css'
 const slides = ref([
   {
     title: 'main-page.services.slider.title-1',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-1.png'
+    img: 'https://www.centerplast.de/wp-content/uploads/2024/02/behandlung-zum-facelifting.jpg'
   },
   {
     title: 'main-page.services.slider.title-2',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-2.png'
+    img: 'https://www.klmedestet.ru/wp-content/uploads/2017/05/mammo-2.jpg'
   },
   {
     title: 'main-page.services.slider.title-3',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-6.png'
+    img: 'https://novetilo.com.ua/images/2018/04/22/rhinoplasty1.png'
   },
   {
     title: 'main-page.services.slider.title-4',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-5.png'
+    img: 'https://drlupin.ru/wp-content/uploads/2020/07/plastic-surgeon-hold.jpg'
   },
   {
     title: 'main-page.services.slider.title-5',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-3.png'
+    img: 'https://stomaservice.com.ua/storage/cache/16552003465423-430x430.webp'
   },
   {
     title: 'main-page.services.slider.title-6',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-1.png'
+    img: 'https://kredo-dent.ru/wp-content/uploads/2024/07/viniry-2-427x388.jpg'
   },
   {
     title: 'main-page.services.slider.title-7',
-    img: 'https://dp-istanbul.net/wp-content/uploads/offer-4.png'
+    img: 'https://fortuna-dent.com.ua/images/1493107285_gollivudskie-viniry.JPG'
   },
 ])
 
@@ -75,7 +75,7 @@ const breakpoints = ref({
       <Carousel v-bind="settings" :breakpoints="breakpoints" class="w-full">
         <Slide v-for="slide in slides" :key="slide.title" class="p-4">
           <div class="carousel__item mx-auto text-center">
-            <img :src="slide.img" class="mx-auto w-full h-auto max-w-xs rounded-xl shadow-lg" />
+            <img :src="slide.img" class="h-72 mx-auto w-full max-w-xs rounded-xl shadow-lg" />
             <p class="w-full mt-4 text-justify text-sm md:text-base">{{$t(slide.title)}}</p>
           </div>
         </Slide>

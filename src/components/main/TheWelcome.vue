@@ -30,7 +30,7 @@ const scrollToFeedback = () => {
       <div class="flex flex-col sm:flex-row justify-between my-8 lg:my-11 items-center">
         <div class="flex space-x-2">
           <img class="w-12 h-12 rounded-3xl"
-               src="https://journal.ilounge.ua/files/managers/tanya-garbaruk.jpg"/>
+               src="https://black-pearl-storage.storage.yandexcloud.net/public/images/0ivvwt6MxwfNvLMuL8b0wlbVKW5VxMWu4hOiW90a.jpg"/>
           <img class="w-12 h-12 rounded-3xl"
                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROSbL3Ch0JLCqu8HpTK2IPrrmc3W9jZQMXQj6FroR3qZD1JkCUBCqt9HOwOkujfYQvIgA&usqp=CAU"/>
           <img class="w-12 h-12 rounded-3xl"
